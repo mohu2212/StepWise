@@ -1,6 +1,6 @@
 name: stepwise
-description: "A new Flutter project."
-version: 0.0.1
+description: A beautiful and customizable stepper widget for Flutter applications that provides a flexible way to show progress through a series of steps with customizable colors, sizes, and text styles.
+version: 1.0.0
 homepage:
 
 environment:
