@@ -2,6 +2,11 @@
 
 All notable changes to the StepWise package will be documented in this file.
 
+## [1.0.2] - 2024-04-18
+
+### Changed
+- Updated image URL in README to use correct GitHub repository path
+
 ## [1.0.1] - 2024-04-18
 
 ### Added

@@ -15,7 +15,7 @@ and the Flutter guide for
 
 A beautiful and customizable stepper widget for Flutter applications that provides a flexible way to show progress through a series of steps.
 
-![StepWise Demo](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.41.png)
+![StepWise Demo](https://raw.githubusercontent.com/mohu2212/stepwise/main/images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.41.png)
 
 ## Features
 
@@ -32,7 +32,7 @@ Add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  stepwise: ^1.0.1
+  stepwise: ^1.0.2
 ```
 
 ## Usage
