@@ -2,7 +2,7 @@
 
 All notable changes to the StepWise package will be documented in this file.
 
-## [1.0.0] - 2024-04-18
+## [1.0.1] - 2024-04-18
 
 ### Added
 - Initial release of StepWise package
