@@ -15,7 +15,7 @@ and the Flutter guide for
 
 A beautiful and customizable stepper widget for Flutter applications that provides a flexible way to show progress through a series of steps.
 
-![StepWise Demo](https://raw.githubusercontent.com/mohu2212/StepWise/main/images/stepwise-demo.gif)
+![StepWise Demo](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.41.png)
 
 ## Features
 
@@ -26,7 +26,7 @@ A beautiful and customizable stepper widget for Flutter applications that provid
 - Responsive layout
 - Support for completed, current, and upcoming steps
 
-![StepWise Customization](https://raw.githubusercontent.com/mohu2212/StepWise/main/images/stepwise-customization.png)
+![StepWise Customization](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.38.png)
 
 ## Installation
 
@@ -76,7 +76,7 @@ The `StepWise` widget provides several customization options:
 - `fontSize`: Size of the step labels
 - `fontWeight`: Weight of the step labels
 
-![StepWise Features](https://raw.githubusercontent.com/mohu2212/StepWise/main/images/stepwise-features.png)
+![StepWise Features](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.36.png)
 
 ## Example
 
