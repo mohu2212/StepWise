@@ -26,8 +26,6 @@ A beautiful and customizable stepper widget for Flutter applications that provid
 - Responsive layout
 - Support for completed, current, and upcoming steps
 
-![StepWise Customization](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.38.png)
-
 ## Installation
 
 Add the following to your `pubspec.yaml` file:
@@ -75,8 +73,6 @@ The `StepWise` widget provides several customization options:
 - `lineThickness`: Thickness of the connecting lines
 - `fontSize`: Size of the step labels
 - `fontWeight`: Weight of the step labels
-
-![StepWise Features](images/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-04-18%20at%2007.58.36.png)
 
 ## Example
 
