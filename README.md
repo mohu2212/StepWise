@@ -32,7 +32,7 @@ Add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  stepwise: ^1.0.2
+  stepwise: ^1.0.3
 ```
 
 ## Usage
