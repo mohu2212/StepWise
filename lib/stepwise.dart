@@ -52,8 +52,10 @@ class StepWise extends StatelessWidget {
     this.lineThickness = 1,
     this.fontSize = 13,
     this.fontWeight = FontWeight.w500,
-  }) : assert(currentStep > 0 && currentStep <= steps.length,
-            'currentStep must be between 1 and steps.length');
+  }) : assert(
+         currentStep > 0 && currentStep <= steps.length,
+         'currentStep must be between 1 and steps.length',
+       );
 
   @override
   Widget build(BuildContext context) {
@@ -84,9 +86,10 @@ class StepWise extends StatelessWidget {
                                 child: CustomPaint(
                                   size: Size(double.infinity, lineThickness),
                                   painter: DottedLinePainter(
-                                    color: isBeforeCurrent
-                                        ? activeColor
-                                        : inactiveColor.withOpacity(0.3),
+                                    color:
+                                        isBeforeCurrent
+                                            ? activeColor
+                                            : inactiveColor, // 30% opacity
                                   ),
                                 ),
                               )
@@ -97,9 +100,10 @@ class StepWise extends StatelessWidget {
                                 child: CustomPaint(
                                   size: Size(double.infinity, lineThickness),
                                   painter: DottedLinePainter(
-                                    color: isCompleted
-                                        ? activeColor
-                                        : inactiveColor.withOpacity(0.3),
+                                    color:
+                                        isCompleted
+                                            ? activeColor
+                                            : inactiveColor, // 30% opacity
                                   ),
                                 ),
                               )
@@ -115,19 +119,21 @@ class StepWise extends StatelessWidget {
                             color:
                                 isCompleted ? activeColor : Colors.transparent,
                             border: Border.all(
-                              color: isCompleted || isCurrent
-                                  ? activeColor
-                                  : inactiveColor.withOpacity(0.3),
+                              color:
+                                  isCompleted || isCurrent
+                                      ? activeColor
+                                      : inactiveColor, // 30% opacity
                               width: 2,
                             ),
                           ),
-                          child: isCompleted
-                              ? Icon(
-                                  Icons.check,
-                                  color: Colors.white,
-                                  size: circleRadius * 0.7,
-                                )
-                              : null,
+                          child:
+                              isCompleted
+                                  ? Icon(
+                                    Icons.check,
+                                    color: Colors.white,
+                                    size: circleRadius * 0.7,
+                                  )
+                                  : null,
                         ),
                       ],
                     ),
@@ -138,9 +144,10 @@ class StepWise extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: fontSize,
-                      color: isCompleted || isCurrent
-                          ? textActiveColor
-                          : textInactiveColor.withOpacity(0.7),
+                      color:
+                          isCompleted || isCurrent
+                              ? textActiveColor
+                              : textInactiveColor, // 70% opacity
                       fontWeight: fontWeight,
                     ),
                   ),
@@ -164,10 +171,11 @@ class DottedLinePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final paint = Paint()
-      ..color = color
-      ..strokeWidth = size.height
-      ..strokeCap = StrokeCap.round;
+    final paint =
+        Paint()
+          ..color = color
+          ..strokeWidth = size.height
+          ..strokeCap = StrokeCap.round;
 
     const dashWidth = 4;
     const dashSpace = 4;

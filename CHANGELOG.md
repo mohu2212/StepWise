@@ -2,11 +2,16 @@
 
 All notable changes to the StepWise package will be documented in this file.
 
-## [1.0.3] - 2024-04-18
+## [1.0.4] - 2024-04-18
 
 ### Fixed
 - Replaced deprecated `withOpacity` method with `withAlpha` to avoid precision loss
-- Improved code formatting and readability
+- Fixed code formatting and removed unnecessary line breaks
+
+## [1.0.3] - 2024-04-18
+
+### Changed
+- Updated repository URL in pubspec.yaml
 
 ## [1.0.2] - 2024-04-18
 
