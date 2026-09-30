@@ -1,6 +1,6 @@
 name: stepwise
-description: A beautiful and customizable stepper widget for Flutter applications that provides a flexible way to show progress through a series of steps with customizable colors, sizes, and text styles.
-version: 1.0.5
+description: A customizable stepper widget for Flutter that shows progress through steps with dotted line connectors and customizable styles.
+version: 1.0.6
 repository: https://github.com/mohu2212/StepWise
 
 environment:

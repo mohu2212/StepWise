@@ -2,6 +2,12 @@
 
 All notable changes to the StepWise package will be documented in this file.
 
+## [1.0.6] - 2025-05-16
+
+### Changed
+- Shortened the package description in pubspec.yaml
+- Updated the installation snippet in README to `^1.0.6`
+
 ## [1.0.5] - 2024-04-18
 
 ### Changed
